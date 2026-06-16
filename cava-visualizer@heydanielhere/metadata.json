@@ -1,0 +1,7 @@
+{
+    "uuid": "cava-visualizer@heydanielhere",
+    "name": "Cava Visualizer",
+    "description": "Visualizador de audio ultra personalizable usando CAVA como backend.",
+    "version": "1.0.0",
+    "max-instances": 1
+}

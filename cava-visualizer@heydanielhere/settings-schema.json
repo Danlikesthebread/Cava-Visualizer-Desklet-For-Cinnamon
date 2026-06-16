@@ -1,0 +1,133 @@
+{
+    "width": {
+        "type": "spinbutton",
+        "default": 400,
+        "min": 100,
+        "max": 1200,
+        "step": 10,
+        "units": "px",
+        "description": "Ancho del visualizador"
+    },
+    "height": {
+        "type": "spinbutton",
+        "default": 150,
+        "min": 40,
+        "max": 600,
+        "step": 5,
+        "units": "px",
+        "description": "Alto del visualizador"
+    },
+    "viz-mode": {
+        "type": "combobox",
+        "default": "bars",
+        "options": {
+            "Barras": "bars",
+            "Barras espejo": "bars-mirror",
+            "Onda": "wave",
+            "Onda espejo": "wave-mirror",
+            "Línea": "line",
+            "Puntos": "dots"
+        },
+        "description": "Modo de visualización"
+    },
+    "bar-count": {
+        "type": "spinbutton",
+        "default": 20,
+        "min": 4,
+        "max": 64,
+        "step": 1,
+        "description": "Cantidad de barras / puntos"
+    },
+    "bar-spacing": {
+        "type": "spinbutton",
+        "default": 2,
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "units": "px",
+        "description": "Espacio entre barras"
+    },
+    "bar-radius": {
+        "type": "spinbutton",
+        "default": 3,
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "units": "px",
+        "description": "Radio de bordes de las barras"
+    },
+    "mirror": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Espejo horizontal (izquierda-derecha)"
+    },
+    "reverse": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Invertir dirección"
+    },
+    "use-gradient": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Usar degradado de colores"
+    },
+    "color-1": {
+        "type": "colorchooser",
+        "default": "#6b21a8",
+        "description": "Color 1 (base / grave)"
+    },
+    "color-2": {
+        "type": "colorchooser",
+        "default": "#e8650a",
+        "description": "Color 2 (medio)"
+    },
+    "color-3": {
+        "type": "colorchooser",
+        "default": "#cc2200",
+        "description": "Color 3 (pico / agudo)"
+    },
+    "color-opacity": {
+        "type": "scale",
+        "default": 1.0,
+        "min": 0.1,
+        "max": 1.0,
+        "step": 0.01,
+        "description": "Opacidad de las barras"
+    },
+    "bg-color": {
+        "type": "colorchooser",
+        "default": "#000000",
+        "description": "Color del fondo"
+    },
+    "bg-opacity": {
+        "type": "scale",
+        "default": 0.0,
+        "min": 0.0,
+        "max": 1.0,
+        "step": 0.01,
+        "description": "Opacidad del fondo (0 = transparente)"
+    },
+    "bg-radius": {
+        "type": "spinbutton",
+        "default": 12,
+        "min": 0,
+        "max": 60,
+        "step": 1,
+        "units": "px",
+        "description": "Radio de bordes del fondo"
+    },
+    "line-width": {
+        "type": "spinbutton",
+        "default": 2,
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "units": "px",
+        "description": "Grosor de línea (modos onda y línea)"
+    },
+    "fill-wave": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Rellenar onda (modo onda)"
+    }
+}
